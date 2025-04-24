@@ -1,0 +1,1293 @@
+﻿
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.wbanner {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    position: absolute;
+}
+
+/*.woman_overlay {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    position: absolute;
+}*/
+section.wbanner.glass-window {
+    background-image: url("../../../Media/Default/Photos/Site/window_bg_lowres.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height:740px;
+}
+
+#free-woman-container {
+    float: left;
+    height: 740px;
+    width: 66%;
+    position: relative;
+    z-index: 1;
+}
+#free-quote-container {
+    float: left;
+    height: 535px;
+    width: 33%;
+    position: relative;
+    z-index: 5;
+}
+
+/*center the quote on smaller devices*/
+@media (max-width: 991px){
+   #free-quote-container {
+        width: 50%;
+    }
+
+    #free-woman-container {
+         width: 50%;
+    }
+}
+
+
+
+#home_free_qoute {
+    background-color: rgba(0,0,0,0.6);
+    height:auto;
+    margin-top: 80px;
+    padding: 20px;
+    text-align: left;
+    width: 90%;
+    color: #dedede;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+#free-quote-container #home_free_qoute div div.free-quote-list {
+     font-size: 32px;
+
+}
+#free-quote-container #home_free_qoute div.free-quote-list i {
+    font-size: 20px;
+}
+
+#free-quote-container #home_free_qoute #get-quote-words {
+    margin-top: 32px;
+    font-size: 24px;
+}
+
+#free-woman {
+    left: 0px;
+    bottom: 0px;
+    float: left;
+    position: relative;
+    z-index: 3;
+    -webkit-animation-name: woman-free; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: both; /* Chrome, Safari, Opera */
+
+    animation-name: woman-free;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+}
+
+#For-30-yrs {
+    height: 100%;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #eeecf2;
+    float: left;
+    width: 100%;
+}
+#For-30-yrs h1 {
+    color:#473F3A;
+}
+#For-30-yrs h1 i {
+    font-size: 0.6em;
+    vertical-align: top;
+}
+
+#For-30-yrs #For-30-icons {
+    padding: 40px;
+}
+
+#For-30-yrs #For-30-icons.col-md-10.col-md-push-1 div.col-md-3.col-sm-6 {
+    padding: 15px;
+}
+#For-30-yrs #For-30-icons a.link-text-arrow-right {
+    text-decoration: none;
+}
+
+#For-30-icons a.icon-transition {
+    opacity: 1;
+    transition: opacity 0.3s ease 0s;
+}
+
+#For-30-icons a.icon-transition :hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease 0s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes woman-free {
+    from {
+       left: 0px;
+       bottom: 0px;
+    }
+    to {
+       left:70px;
+        bottom: 0px;
+    }
+}
+
+/* Standard syntax */
+@keyframes woman-free {
+  from {
+       left: 0px;
+       bottom: 0px;
+    }
+    to {
+       left:70px;
+       bottom: 0px;
+    }
+}
+
+
+#TripelFirst.col-md-6 div.zone.zone-tripel-first article.widget-WhatWeDo.widget-tripel-first.widget-html-widget.widget div div.triple-center div, 
+#TripelSecond.col-md-6 div.zone.zone-tripel-second article.widget-GettingStarted.widget-tripel-second.widget-html-widget.widget div div.triple-center div {
+    text-align:justify;
+    padding: 5px 20px;
+}
+/*##############################################################################*/
+#partner-with-us {
+    background-image: url("../../../Media/Default/Photos/Site/handshake2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    min-height:600px;
+    color: #4c5072;
+    font-size: 24px;
+    background-color: #fafafa;
+    /*background-color: #c8f2e5;*/
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#partner-with-us div.partner-overlay {
+    /*background-color: rgba(0,0,0,0.2);*/
+    min-height:600px;
+    padding-top: 40px;
+    /*border: 1px solid red;*/
+}
+#partner-with-us #are-you {
+    color: #3c5e92;
+    font-size: 36px;
+}
+
+#partner-with-us #accountant {
+    padding-left: 10px;
+    color: #b955a8;
+}
+
+#partner-with-us #agent {
+    padding-left: 140px;
+    color: #7e4e84;
+}
+
+#partner-with-us #client {
+    padding-left: 175px;
+    color: #e07371;
+}
+
+#partner-with-us  div#many-ways.row {
+    padding: 30px 10px 40px 100px;
+}
+
+#partner-with-us  #many-ways.row div {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#partner-with-us #many-ways i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+
+#partner-with-us #puzzle-partner {
+    height: 199px;
+}
+
+
+#partner-with-us #partner-link {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 140px;
+}
+
+#partner-with-us #partner-link a {
+    text-decoration: none;
+}
+
+#testimonials {
+    /*background-color: #EEF4F9;*/
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    padding: 20px 0;
+
+    /*#####background gradient #####*/
+    background: rgb(228,245,252); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(228,245,252,1) 0%, rgba(191,232,249,1) 37%, rgba(159,216,239,1) 63%, rgba(112,198,234,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 37%,rgba(159,216,239,1) 63%,rgba(112,198,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 37%,rgba(159,216,239,1) 63%,rgba(112,198,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#70c6ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /*###########*/
+   
+}
+
+#testimonials-header {
+    padding-left: 40px;
+    /*text-align: center;*/
+    /*border: 1px solid red;*/
+}
+
+#testimonials-header i.fa.fa-commenting-o {
+    vertical-align: top;
+}
+
+#testimonials div#testimonial-body {
+    float: left;
+    padding: 5px 20px 20px 20px;
+    clear: both;
+}
+
+#testimonials div.testimony-content {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 40px;
+}
+
+
+#testimonials div.testimony-bubble {
+    padding: 6px 8px;
+    border-radius: 8px;
+    border-color: #f3863d; 
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.3) -4px 2px 2px;
+    font-size: 16px;
+    /*font-family: 'Courgette', cursive;*/
+    font-family: 'Kalam', cursive;
+    color: #444;
+}
+
+.triangle-topright { 
+    width: 0; 
+    height: 0; 
+    border-top: 12px solid #f3863d; 
+    border-left: 12px solid transparent; 
+    margin-left:30px;
+    margin-top: -2px;
+}
+
+#testimonials  div.says-who {
+     text-align: left;
+     padding-left: 8px;
+     font-style:italic;
+     text-shadow: rgba(0,0,0,0.4) -3px 2px 2px;
+}
+#testimonials div.person-name {
+    font-size: 16px;
+}
+
+#testimonials  div.person-title {
+    font-size: 14px;
+}
+
+#block-image-content {
+    display: block;
+    height: 400px;
+
+}
+#helpdesk-people.peek-bg {
+    background-image:url("../../../Media/Default/Photos/Site/help_desk_three_people10.jpg");
+}
+
+.peek-bg {
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vw;
+  min-height: 400px;
+}
+
+.clear {
+    display: none;
+    clear: both;
+}
+/*########################################################*/
+#try-for-free {
+    background-image:url("../../../Media/Default/Photos/Site/try-it-bg3.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    padding: 10px 0;
+    text-align: center;
+    color: #0269C2;
+    font-family: "Roboto Condensed", sans-serif;
+    /*float: left;*/
+}
+
+
+#try-for-free div#try-it-arrow {
+    height: 52px;
+    padding-left: 100px;
+}
+#try-for-free #get-free-text {
+    font-size: 24px;
+}
+
+
+#try-for-free  a {
+    text-decoration: none;
+}
+
+/*#try-for-free  a:hover{
+    text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.3);
+}*/
+#try-for-free #try-it-arrow {
+    text-align: left;
+}
+
+#try-for-free #discover-text {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#try-for-free div#try-it-text {
+     font-size: 42px;
+     padding-top: 30px;
+     color: #575757;
+}
+
+#try-for-free #try-it-text span i {
+    font-size: 20px;
+    vertical-align: top;
+}
+
+#try-for-free #asteresk-text {
+    text-align: left;
+    color: #575757; 
+}
+
+/*#################### Payroll #######################*/
+section.wbanner.payroll-calculator {
+    background-image: url("../../../Media/Default/Photos/Site/calculator_pen_lowres.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+}
+
+#accurate-payroll {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    /*color:#352847;*/
+    color:#ffffff;
+    
+    -webkit-animation-name: accurate-payroll-anime; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: both;  /* Chrome, Safari, Opera */
+
+    animation-name: accurate-payroll-anime;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes accurate-payroll-anime {
+    from {
+       font-size: 50px;
+       opacity:0.0;
+    }
+    to {
+       font-size: 32px;
+       opacity: 0.9;
+    }
+}
+
+/* Standard syntax */
+@keyframes accurate-payroll-anime {
+     from {
+       font-size: 50px;
+       opacity:0.0;
+    }
+    to {
+       font-size: 32px;
+       opacity: 0.9;
+    }
+}
+
+
+/*###############################################################*/
+section.wbanner.other-service {
+    background-image: url("../../../Media/Default/Photos/Site/beyond_payroll9.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 433px;
+    z-index: 1;
+    text-align: center;
+    float: left;
+}
+
+#beyond-payroll {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: #eeeeee;
+    
+    -webkit-animation-name: accurate-payroll-anime; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-fill-mode: both;  /* Chrome, Safari, Opera */
+
+    animation-name: accurate-payroll-anime;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+
+div.header-main div.col-lg-12 div.row div.navbar-collapse.collapse.collapse-nav div.col-md-8 {
+    height: 60px;
+}
+
+div#MainWrapper footer div#MenuH  nav ul.menu.menu-main-menu.menu.menu-main-menu a {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+div#MainWrapper footer div#MenuH  nav ul.menu.menu-main-menu.menu.menu-main-menu :hover {
+  color:#ffffff;
+}
+
+a.image_link :hover {
+    text-decoration: none;
+    box-shadow: 0px 2px 10px 0px rgba(2,105,194,1);
+}
+
+@media (min-width: 1200px) {
+   section.wbanner.glass-window #btnGetQuote,
+   section.wbanner.glass-window #btnNewsLetter {
+        padding-top: 30px;
+    }
+}
+
+article.page.content-item div.row  h4 {
+    color:#e2890e;
+}
+
+/*##### other services page ##########*/
+@media screen and (max-width: 991px) {
+    #otherservices-retirement #img-retirement {
+        display: none;
+    }
+}
+#otherservices-workerscomp {
+    padding: 40px 20px;
+    min-height: 500px;
+    background-image:url("../../../Media/Default/Photos/Site/worker_helmet3.png");
+    background-position:bottom left;
+    background-repeat: no-repeat;
+}
+
+
+#otherservices-human-resources {
+    padding: 40px 20px;
+    min-height:600px;
+    /*background-color: rgba(0,0,0,0.5);*/
+    color: #ffffff;
+
+    background: #7f7f7f; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #7f7f7f 55%, #b2b2b2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #7f7f7f 55%,#b2b2b2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #7f7f7f 55%,#b2b2b2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f7f7f', endColorstr='#b2b2b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+#otherservices-human-resources #people-image {
+    background-image:url("../../../Media/Default/Photos/Site/people_group4.png");
+    background-position:right;
+    background-repeat: no-repeat;
+}
+#otherservices-human-resources #half-width {
+    width: 45%;
+}
+#otherservices-human-resources #btnMemberLogin {
+    padding-top: 30px;
+}
+#otherservices-human-resources h2, 
+#otherservices-human-resources h3,
+#otherservices-human-resources h4  {
+     color: #fefefe;
+}
+
+#otherservices-time-attendance-row {
+    background-color: #F1F1F1;
+    background-image:url("../../../Media/Default/Photos/Site/clock_bg2.png");
+    background-position:bottom right;
+    background-repeat: no-repeat;
+}
+
+
+#otherservices-time-attendance {
+    padding: 40px 20px;
+    min-height: 560px;
+}
+
+#otherservices-time-attendance #img-clock {
+    padding: 10px 40px 10px 10px;
+}
+
+#otherservices-retirement {
+    padding: 20px;
+    min-height: 476px;
+    color: #fefefe;
+
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #1e5799 0%, #2989d8 33%, #207cca 65%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#2989d8 33%,#207cca 65%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 33%,#207cca 65%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#otherservices-retirement h2 {
+     color: #ffffff;
+}
+
+#otherservices-retirement #retirement-details  p {
+    font-size: 1.4em;
+    padding-top: 20px;
+}
+
+
+#otherservices-retirement #img-retirements {
+    background-image: url("../../../Media/Default/Photos/Site/retirements_a.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 670px;
+    height: 262px;
+    overflow: hidden;
+}
+
+
+#otherservices-employee_screening {
+    padding: 30px 10px;
+    min-height: 680px;
+    background-image: url("../../../Media/Default/Photos/Site/digital_border3.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: #232323;
+    color: #cfcfcf;
+}
+
+#otherservices-employee_screening h2 {
+    color: #cfcfcf;
+}
+
+#otherservices-employee_screening #img-emp-screening {
+    padding: 5px 10px 5px 10px;
+}
+
+/*##################################################################*/
+#payroll-features {
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 240px;
+    background-color:#f2ede9;
+
+}
+
+
+
+/*#payroll-features h1 {
+    color: #242D47;
+}*/
+#payroll-features #link-payroll-features a {
+    margin-top: 50px;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #422926;
+}
+
+
+#payroll-main {
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 500px;
+    /*background-color: #ffffff;
+    background-image: url('/Media/Default/Photos/Site/payroll-bg3.jpg');
+    background-position: top;
+    background-repeat: repeat-x;*/
+
+    /*background: -moz-linear-gradient(45deg, rgba(188,162,242,0) 38%, rgba(133,116,173,1) 100%); 
+    background: -webkit-linear-gradient(45deg, rgba(188,162,242,0) 38%,rgba(133,116,173,1) 100%);
+    background: linear-gradient(45deg, rgba(188,162,242,0) 38%,rgba(133,116,173,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bca2f2', endColorstr='#8574ad',GradientType=1 );*/
+
+}
+
+#payroll-main.row  h4 a {
+    text-decoration: none;
+}
+
+
+#payroll-main #specialize-payroll {
+    padding-top: 70px;
+    color: #5d577b;
+    font-size: 2.2em;
+    vertical-align: top;
+}
+
+#payroll-main.row #specialize-payroll div i {
+    font-size: 0.6em;
+    vertical-align: top;
+}
+#thank-you {
+    text-align: center;
+    min-height: 600px;
+    font-size: 1.4em;
+}
+
+#thank-you #img-thank-you {
+    padding-top: 40px;
+}
+
+/*### Payroll Types ####*/
+.anchor-spacer {
+    padding-top: 20px;
+}
+
+.payroll-features-content {
+    padding: 10px 20px;
+}
+
+.payroll-features-list {
+    margin: 10px;
+}
+
+div.payroll-features-list p i {
+    font-size: 1em;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+    margin-right: 5px;
+}
+
+#restaurant-payroll {
+    background-image: url("../../../Media/Default/Photos/Site/restaurant_utinsils4.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    min-height:500px;
+    padding: 40px 10px;
+    background-color: #ffc09a;
+}
+
+#restaurant-payroll #restaurant-image {
+    margin: 5px 10px 5px 30px;
+    box-shadow: -8px 8px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#restaurant-payroll #retaurant-feature-list {
+    padding-top: 10px;
+}
+
+
+#restaurant-payroll h4 {
+    color: #654536;
+}
+
+#restaurant-payroll .payroll-features-list p strong {
+    color: #654536;
+}
+
+#online-payroll {
+    height: 500px;
+    padding: 50px;
+    background-image: url("../../../Media/Default/Photos/Site/globe2.png");
+    background-repeat: no-repeat;
+    background-position: 95% 250px;
+    background-color:#e3cffd;
+}
+
+#online-payroll #helpdesk-image {
+    box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.4);
+}
+
+#online-payroll div.payroll-features-list p i {
+    color: #715594;
+}
+#construction-payroll {
+    background-image: url("../../../Media/Default/Photos/Site/construction_icon3.png");
+    background-repeat: no-repeat;
+    background-position: 5% 200px;
+    height:500px;
+    padding-top: 40px;
+    background-color: #FDEECD;
+}
+
+#construction-payroll  #construction-image {
+    margin: 5px 10px 5px 10px;
+    box-shadow: 3px 10px 4px rgba(0,0,0,0.5);
+}
+
+#construction-payroll .payroll-features-content p {
+    padding: 10px;
+    color: #413A32;
+}
+
+#construction-payroll div.payroll-features-content p i {
+    color: #E38150;
+}
+/*### chevron right arrow and will animate right on hover ###*/
+.link-text-arrow-right::after {
+    content:" \f054";
+    font-family: "FontAwesome";
+    display: inline-block;
+    left: 5px;
+    position: relative;
+    transition: all 125ms ease-in-out 0s;
+}
+
+.link-text-arrow-right:hover::after {
+    left: 12px;
+}
+
+
+
+
+span#construction-worker-icon {
+    background: transparent url("../../../Media/Default/Photos/Site/construction_sprite_smaller3.png") no-repeat;
+    width: 140px;
+    height: 140px;
+    display: block;
+    opacity: 0.8;
+    text-align: center;
+}
+
+span#construction-worker-icon:hover {
+    background-position: -140px 0px;
+}
+
+
+span#online-payroll-icon {
+    background: transparent url("../../../Media/Default/Photos/Site/online_sprite_smaller3.png") no-repeat;
+    width: 140px;
+    height: 140px;
+    display: block;
+    opacity: 0.8;
+}
+span#online-payroll-icon:hover {
+    background-position: -140px 0px;
+}
+
+
+span#waiter-icon {
+    background: transparent url("../../../Media/Default/Photos/Site/waiter_sprite_smaller3.png") no-repeat;
+    width: 140px;
+    height: 140px;
+    display: block;
+    opacity: 0.8;
+}
+
+span#waiter-icon:hover {
+    background-position: -140px 0px;
+}
+
+
+.centered-anchor {
+    display: inline-block;
+}
+#payroll-main.row div.container div.col-md-4.col-md-4 div.text-center {
+    text-align: center;
+}
+/*############################################################*/
+
+/*#representative {
+    height: 500px;
+}*/
+
+
+/*#### from medium to large devices #####*/
+@media (min-width: 992px) {
+    #representative {
+        background-image: url("../../../Media/Default/Photos/Site/representativeBg2.png");
+        background-repeat:repeat-y;
+        background-position: left;
+        height: 500px;
+    }
+    /*#representative  #quote-helping {
+        float: left;
+        width:70%;
+        padding-top: 160px;
+    }*/
+
+    #representative #img-girl-representative {
+        background-image: url("../../../Media/Default/Photos/Site/representative2.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 500px;
+    }
+
+    /*#representative div.butterfly
+    {
+        height: 155px;
+        width: 155px;
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("../../../Media/Default/Photos/Site/butterfly_sprite2.png");
+        background-repeat: no-repeat;
+      
+        position: relative;
+    }
+
+    #representative div.butterfly.start {
+         animation: butterfly-wings 0.2s  steps(4, end) 2;
+        -webkit-animation: butterfly-wings 0.2s  steps(4, end) 2;
+    }*/
+}
+
+/*@keyframes butterfly-wings {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -620px;
+    }
+}
+@-webkit-keyframes butterfly-wings {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -620px;
+    }
+}*/
+/*### hide background image on smaller device*/
+@media (max-width: 991px){
+    #representative #representative-bg {
+        background-image: url("../../../Media/Default/Photos/Site/representativeBg2.png");
+        background-repeat:repeat-y;
+        background-position: left;
+        height: 300px;
+      
+    }
+
+    /*hide animated images*/
+    #payroll-features-page div.img-imac img,
+    #payroll-features-page2 div.img-integration img,
+    #payroll-features-page3 div.img-iphone-ipad img {
+        display: none;
+    }
+    /*#representative #representative-bg #quote-helping {
+         padding: 120px 10px 0 120px;
+         float: left;
+    }*/
+
+     #representative #img-girl-representative {
+        background-image: none;
+        height: 300px;
+    }
+}
+
+#representative.row  h2,
+#representative.row  h3 {
+    color:#f36b21;
+}
+
+#representative.row div.col-md-4 div ul li{
+    list-style-type: none;
+    padding-top: 15px;
+    /*color:#362A25;*/
+}
+
+#customerSupportSpace {
+    padding-top: 40px;
+}
+
+#representative.row i.fa.fa-check-square-o {
+    /*color:#362A25;*/
+    padding-right: 5px;
+}
+#representative #why-olympic,
+#representative #why-olympic h3,
+#representative #why-olympic h3 i.fa.fa-check-square-o {
+    color: #00365f;
+}
+
+#representative #better-together,
+#representative #better-together h3,
+#representative #better-together h3 i.fa.fa-check-square-o {
+    color: #008554;
+}
+
+#representative #we-are-here,
+#representative #we-are-here h3,
+#representative #we-are-here h3 i.fa.fa-check-square-o {
+    color:#ee2560;
+}
+
+#how-can-we-help {
+     /*border-top: 3px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 119, 190, 0.6);
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color:rgba(0, 119, 190, 0.6);
+   background-color: rgba(239, 82, 138, 0.1);*/
+    padding: 7px;
+    /*margin-top: 70px;*/
+    text-align: center;
+    font-size: 32px;
+    color: rgba(0, 119, 190, 0.9);
+}
+/*###########################################################################################*/
+#payroll-quote {
+    height: 440px;
+    /*background-image: url("../../../Media/Default/Photos/Site/best_price5.png");
+    background-repeat: no-repeat;
+    background-position: right top;*/
+}
+
+#best-price-image {
+    margin-top: 30px;
+}
+#payroll-quote-contact-us {
+    height: 290px;
+    background-image: url("../../../Media/Default/Photos/Site/paint_splash_blue_smaller.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-top: 60px;
+}
+
+#payroll-quote-contact-us div.col-md-10 h4 {
+    color: #5C5858;
+}
+
+#still-not-div {
+    height: 220px;
+    padding-top: 60px;
+    font-size: 24px;
+}
+
+#still-not-div i.fa.fa-lightbulb-o {
+    font-size: 70px;
+    color: orange;
+    margin-right: 10px;
+}
+#still-not {
+    font-size: 28px;
+    color: #E00000;
+}
+
+#still-not-div #peek-into-payroll a.link-text-arrow-right {
+    text-decoration: none;
+}
+#peek-into-payroll {
+    padding-top: 20px;
+}
+/*###########################################################################################*/
+
+.triple-center {
+    padding: 70px 0;
+    text-align: center;
+    align-content:center;
+}
+
+#TripelFirst article .triple-center div,
+#TripelSecond article .triple-center div {
+    text-align:justify;
+}
+
+
+
+#flame {
+    height: 120px;
+    width: 120px;
+}
+
+#more-than-thirty-years {
+    text-align: center;
+    height: 220px;
+    background-color: #efefef;
+    padding-top: 60px;
+}
+
+/*############ Payroll Features ##########*/
+@keyframes hinaygawas {
+    0% {
+        padding-top: 200px;
+        opacity: 0;
+    }
+    100% {
+        padding-top: 100px;
+        opacity: 1;
+    }
+}
+
+@keyframes hinaygawas2 {
+    0% {
+        padding-top: 450px;
+        opacity: 0;
+    }
+    50% {
+        padding-top: 400px;
+        opacity: 0.3;
+    }
+    100% {
+        padding-top: 350px;
+        opacity: 1;
+    }
+}
+
+@keyframes hinaygawas3 {
+    0% {
+        padding-top: 500px;
+        opacity: 0;
+    }
+    50% {
+        padding-top: 450px;
+        opacity: 0.3;
+    }
+    100% {
+        padding-top:400px;
+        opacity: 1;
+    }
+}
+
+/*hide background image on medium devices*/
+@media (max-width: 991px) {
+    #payroll-features-page, #payroll-features-page2, 
+    #payroll-features-page3 {
+        background-color: #ffffff;
+        background-image:none;
+        padding-bottom: 40px;
+        text-align: left;
+        font-size: 1.1em;
+    }
+}
+
+#payroll-features-page span.feature-heading,
+#payroll-features-page2 span.feature-heading,
+#payroll-features-page3 span.feature-heading {
+    font-size: 1.4em;
+    padding-left: 16px;
+}
+
+#payroll-features-page div.feature-box,
+#payroll-features-page2 div.feature-box,
+#payroll-features-page3 div.feature-box {
+    margin: 35px 0;
+}
+
+
+@media (min-width: 992px) {
+   
+     #payroll-features-page {
+        background-color: #ffffff;
+        background-image: url('../../../Media/Default/Photos/Site/payroll-features_03.png');
+        background-repeat: no-repeat;
+        background-position: 85% 40px;
+        padding-bottom: 100px;
+        text-align: left;
+        font-size: 1.1em;
+        position: relative;
+        min-height: 750px;
+
+    }
+
+    #payroll-features-page .img-imac {
+        position:relative;
+        padding-top: 100px;
+        overflow: hidden;
+        animation: hinaygawas 1s ease-in;
+        -webkit-animation: hinaygawas 1s ease-in;
+        /*border: 1px solid red;*/
+
+    }
+     #payroll-features-page2 {
+       
+        color: #fff;
+        font-size: 1.1em;
+        height: 680px;
+        position: relative;
+
+        background: rgb(206,220,231); /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+
+     #payroll-features-page2 div.img-integration {
+         position: relative;
+         height: 680px;
+         padding-top:350px;
+         overflow: hidden;
+     }
+
+     #payroll-features-page2 div.img-integration.start {
+        position: absolute;
+         animation: hinaygawas2 1.5s ease-in;
+        -webkit-animation: hinaygawas2 1.5s ease-in;
+     }
+
+     #payroll-features-page2 #page2-details {
+         float: right;
+         padding-top: 30px;
+         text-align: left;
+     }
+
+    #payroll-features-page3 {
+        background-image: url('../../../Media/Default/Photos/Site/payroll-features-bg2-d.png');
+        background-repeat: no-repeat;
+        background-position: 10px 100px;
+        color: #fff;
+        text-align: left;
+        font-size: 1.1em;
+        height: 800px;
+        background-color:  #629CEB;
+        position: relative;
+    }
+
+    #payroll-features-page3 div.img-iphone-ipad {
+         position: relative;
+         min-height: 800px;
+         padding-top:400px;
+         overflow: hidden;
+    }
+
+    #payroll-features-page3 div.img-iphone-ipad.start {
+         animation: hinaygawas3 2s ease-in;
+         -webkit-animation: hinaygawas3 2s ease-in;
+
+    }
+}
+
+#MainWrapper div#bt-content div#Main div.container div#Content.col-md-12 div.zone.zone-content article.page.content-item header {
+    margin-bottom: 0px;
+}
+
+
+/*#### footer ####*/
+#social-media{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#social-media a {
+   font-size: 3em;
+    color: #cacaca;
+    padding: 5px;
+}
+
+#social-media a:hover{
+   font-size: 3em;
+    color: #fefefe;
+}
+
+
+/*##################################################################*/
+#company-history{
+    padding: 20px 5px 120px 5px;
+    background-image: url('../../../Media/Default/Photos/Site/logo_flame_gray3.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#office-bldg {
+     padding: 35px 0 10px 15px;
+}
+#company-history #history-list p span.list-title {
+     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+     font-size: 1.1em;
+     color: #0269C2;
+}
+
+#history-list {
+    padding-left: 40px;
+}
+
+#history-list i.fa.fa-circle {
+    font-size: 0.5em;
+    vertical-align: middle;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+#company-mission {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px;
+    height: 400px;
+
+    background-image: url('../../../Media/Default/Photos/Site/mission-arrow2.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    font-size: 16px;
+}
+
+/*####### contact us ###### */
+#contact-info i {
+    font-size: 3em; 
+    color: #2b98f7;
+}
+
+#hear-from-you {
+    margin: 100px 0;
+    background-image: url('../../../Media/Default/Photos/Site/contact_us3.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}         
+
+#contact-quotation {
+    margin: 50px 5px 100px 0;
+}
+
+
+#contact-quotation #contact-quotation-image {
+    margin-right: 30px;
+}
+#contact-quotation #contact-quotation-msg {
+    font-size: 16px;
+    padding: 20px 2px 2px 10px;
+}
+#contact-quotation  #contact-free-quote-link {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#contact-quotation  #contact-free-quote-link a {
+    text-decoration: none;
+}
